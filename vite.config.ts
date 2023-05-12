@@ -18,13 +18,8 @@ export default defineConfig({
       exclude: [
         "**/types.ts",
         "**/*.d.ts",
-        "src/styles/GlobalStyle/GlobalStyle.ts",
-        "src/components/Container/Container.tsx",
-        "src/components/Container/ContainerStyled.tsx",
         "src/components/App/App.tsx",
         "src/main.tsx",
-        "src/store/index.ts",
-        "src/mocks/*",
       ],
     },
   },
