@@ -1,5 +1,11 @@
+import CenteredContainer from "../CenteredContainer/CenteredContainer";
+
 const App = (): JSX.Element => {
-  return <p>A cool robots app!</p>;
+  return (
+    <CenteredContainer>
+      <p>A cool robots app!</p>
+    </CenteredContainer>
+  );
 };
 
 export default App;
