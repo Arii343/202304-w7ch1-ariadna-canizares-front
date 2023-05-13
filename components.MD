@@ -43,6 +43,11 @@
 - Shows the title of the page in a h1 heading
 - Renders a RobotsList component
 
+### Header
+
+- Renders navegation bar
+- Renders robot logo
+
 ### RobotForm
 
 - State
@@ -62,3 +67,16 @@
 - Renders each robot in a RobotCard
 
 ### RobotCard
+
+- Receives a Robot with:
+  - id
+  - name
+  - imageUrl
+  - speed
+  - resistence
+  - dateOfCreation
+- Shows a h3 for the name of the Robot
+- Shows a img for the imageUrl of the Robot
+- Show a span for the speed of the Robot
+- Show a span for the resistence of the Robot
+- Show a span for the dateOfCreation of the Robot
