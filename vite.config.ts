@@ -23,6 +23,7 @@ export default defineConfig({
         "src/components/CenteredContainer/*",
         "src/styles/*",
         "src/index.ts",
+        "src/routers/appRouter/appRouter.tsx",
       ],
     },
   },
