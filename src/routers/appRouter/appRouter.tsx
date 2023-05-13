@@ -10,10 +10,6 @@ const routes: RouteObject[] = [
         path: "*",
         element: <p>Page not found, plese try another one!</p>,
       },
-      {
-        path: "hello",
-        element: <p>Page not found, plese try another one!</p>,
-      },
     ],
   },
 ];
