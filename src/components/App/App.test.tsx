@@ -5,7 +5,7 @@ import { store } from "../../store";
 
 describe("Given an App component", () => {
   describe("When rendered", () => {
-    test("Then it should show the text 'Hello world!", () => {
+    test("Then it should show the text 'A cool robots app!", () => {
       const expectedText = /A cool robots app!/i;
 
       render(

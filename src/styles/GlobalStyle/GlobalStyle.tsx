@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    background: linear-gradient(to bottom,transparent,rgb(255,255,255)) rgb(214,219,220);
+    background: linear-gradient(to bottom,transparent,rgb(202, 218, 218)) rgb(214,219,220);
     min-height:100vh;
   }
 
