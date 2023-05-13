@@ -5,9 +5,9 @@ import { ReactComponent as LogoIcon } from "../../assets/site-logo.svg";
 const Navbar = (): JSX.Element => {
   return (
     <NavbarStyled>
-      <Link to="/" className="navbar__info">
-        <LogoIcon className="navbar__logo" />
-        <span className="navbar__title">Robotown</span>
+      <Link to="/" className="navbar-info">
+        <LogoIcon className="navbar-info__logo" />
+        <span className="navbar-info__title">Robotown</span>
       </Link>
       <ul className="navbar__links">
         <li>
