@@ -42,7 +42,6 @@ module.exports = {
     {
       files: ["*.ts"],
       rules: {
-        "no-unused-vars": "error",
         "@typescript-eslint/consistent-type-definitions": [
           "error",
           "interface",
