@@ -11,7 +11,7 @@ const Navbar = (): JSX.Element => {
       </Link>
       <ul className="navbar__links">
         <li className="navbar__link">
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/robots">Home</NavLink>
         </li>
         <li className="navbar__link">
           <NavLink to="/create">Create</NavLink>

@@ -6,8 +6,8 @@ const RobotCardListStyled = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding-top: 25px;
+    gap: 40px;
+    padding-block: 25px;
   }
 
   @media only screen and (min-width: 600px) {
