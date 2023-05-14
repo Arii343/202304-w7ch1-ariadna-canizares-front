@@ -1,21 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPen, faTrash } from "@fortawesome/free-solid-svg-icons";
 import RobotCardStyle from "./RobotCardStyle";
+import { RobotStructure } from "../../types";
 
 export interface RobotCardProps {
-  name: string;
-  imageUrl: string;
-  speed: number;
-  resistence: number;
-  dateOfCreation: string;
+  card: RobotStructure;
 }
 
 const RobotCard = ({
-  name,
-  imageUrl,
-  speed,
-  resistence,
-  dateOfCreation,
+  card: { dateOfCreation, imageUrl, name, resistence, speed },
 }: RobotCardProps): JSX.Element => {
   return (
     <RobotCardStyle className="robot-card">

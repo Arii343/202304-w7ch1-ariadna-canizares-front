@@ -29,6 +29,7 @@ describe("Given a RobotCard component", () => {
 
       expect(robotName).toBeInTheDocument();
     });
+
     test("Then it should show a 'Robot portait R2D2' alt on img tag", () => {
       const expectedImgAlt = `Robot portait ${robot.name}`;
 
@@ -46,6 +47,7 @@ describe("Given a RobotCard component", () => {
       expect(robotImage).toBeInTheDocument();
     });
   });
+
   describe("When it receives a speed prop with value of 10", () => {
     test("Then it should show a 10 number", () => {
       render(
@@ -63,6 +65,7 @@ describe("Given a RobotCard component", () => {
       expect(robotSpeed).toBeInTheDocument();
     });
   });
+
   describe("When it receives a resistence prop with value of 8", () => {
     test("Then it should show a 8 number", () => {
       render(
@@ -80,6 +83,7 @@ describe("Given a RobotCard component", () => {
       expect(robotResistence).toBeInTheDocument();
     });
   });
+
   describe("When it receives a dateOfCreation prop with value of '12/12/1997'", () => {
     test("Then it should show a 8 number", () => {
       render(
