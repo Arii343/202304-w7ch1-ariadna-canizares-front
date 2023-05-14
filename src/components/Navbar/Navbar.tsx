@@ -10,13 +10,13 @@ const Navbar = (): JSX.Element => {
         <span className="navbar-info__title">Robotown</span>
       </Link>
       <ul className="navbar__links">
-        <li>
+        <li className="navbar__link">
           <NavLink to="/">Home</NavLink>
         </li>
-        <li>
+        <li className="navbar__link">
           <NavLink to="/create">Create</NavLink>
         </li>
-        <li>
+        <li className="navbar__link">
           <NavLink to="/edit">Edit</NavLink>
         </li>
       </ul>
