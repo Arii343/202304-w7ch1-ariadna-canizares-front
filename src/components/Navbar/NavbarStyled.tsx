@@ -4,6 +4,7 @@ const NavbarStyled = styled.nav`
   display: flex;
   flex-direction: column;
   padding-top: 32px;
+  color: rgb(245, 245, 245);
 
   .navbar-info {
     display: flex;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const RobotCardStyle = styled.article`
+const RobotCardStyled = styled.article`
   background-color: rgb(60, 62, 68);
   max-width: 600px;
   width: 100%;
@@ -84,10 +84,10 @@ const RobotCardStyle = styled.article`
   @media only screen and (min-width: 600px) {
     flex-direction: row;
     border-radius: 10px;
-    width: 500px;
+    width: 475px;
     height: 200px;
     .robot-card__img {
-      max-width: 230px;
+      max-width: 200px;
       border-radius: 10px 0 0 10px;
     }
 
@@ -100,4 +100,4 @@ const RobotCardStyle = styled.article`
   }
 `;
 
-export default RobotCardStyle;
+export default RobotCardStyled;
