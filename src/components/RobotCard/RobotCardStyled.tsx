@@ -3,13 +3,14 @@ import styled from "styled-components";
 const RobotCardStyled = styled.article`
   background-color: rgb(60, 62, 68);
   max-width: 600px;
-  width: 100%;
+  width: 256px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   color: rgb(245, 245, 245);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
+  min-height: 100%;
 
   .robot-card__img {
     width: 100%;
@@ -85,9 +86,10 @@ const RobotCardStyled = styled.article`
     flex-direction: row;
     border-radius: 10px;
     width: 475px;
-    height: 200px;
+    height: 220px;
     .robot-card__img {
-      max-width: 200px;
+      width: auto;
+      height: auto;
       border-radius: 10px 0 0 10px;
     }
 
