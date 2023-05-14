@@ -5,9 +5,7 @@ import robotsMockData from "../mocks/robots/robotsMockData";
 describe("Given a getRobots function", () => {
   describe("When it called", () => {
     test("Then it should return a list with R2D2 and WALL-E", async () => {
-      const expectedCardsResponse = {
-        robots: robotsMockData,
-      };
+      const expectedCardsResponse = robotsMockData;
 
       const { result } = renderHook(() => useApi());
       const { getRobots } = result.current;
