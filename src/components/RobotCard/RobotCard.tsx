@@ -18,35 +18,41 @@ const RobotCard = ({
         alt={`Robot portait ${name}`}
       />
       <div className="robot-card__info">
-        <section className="robot-card__header">
+        <div className="robot-card__header">
           <h2 className="robot-card__title">{name}</h2>
           <div className="robot-card__actions">
-            <button className="robot-card__action-button robot-card__action-button--edit">
+            <button
+              className="robot-card__action-button robot-card__action-button--edit"
+              aria-label="Edit"
+            >
               <FontAwesomeIcon icon={faPen} className="robot-card__icon" />
             </button>
-            <button className="robot-card__action-button robot-card__action-button--delete">
+            <button
+              className="robot-card__action-button robot-card__action-button--delete"
+              aria-label="Delete"
+            >
               <FontAwesomeIcon icon={faTrash} className="robot-card__icon" />
             </button>
           </div>
-        </section>
-        <section className="robot-card__section">
+        </div>
+        <div className="robot-card__section">
           <span className="robot-card__text robot-card__text--dark">
             Speed:
           </span>
           <span className="robot-card__text">{speed}</span>
-        </section>
-        <section className="robot-card__section">
+        </div>
+        <div className="robot-card__section">
           <span className="robot-card__text robot-card__text--dark">
             Resistence:
           </span>
           <span className="robot-card__text">{resistence}</span>
-        </section>
-        <section className="robot-card__section">
+        </div>
+        <div className="robot-card__section">
           <span className="robot-card__text robot-card__text--dark">
             Date of creation:
           </span>
           <span className="robot-card__text">{dateOfCreation}</span>
-        </section>
+        </div>
       </div>
     </RobotCardStyled>
   );
