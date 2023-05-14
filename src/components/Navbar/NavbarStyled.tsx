@@ -31,6 +31,10 @@ const NavbarStyled = styled.nav`
     font-size: 20px;
   }
 
+  .navbar__links a {
+    padding-bottom: 5px;
+  }
+
   .active {
     border-bottom: 5px solid #02c4c3;
   }

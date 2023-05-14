@@ -9,9 +9,9 @@ interface UseApiStructure {
 const apiUrl = import.meta.env.VITE_APP_API_URL;
 
 const useApi = (): UseApiStructure => {
-  const getRobots = useCallback(async () => {
-    const { data: robots } = await axios.get(`${apiUrl}robots`);
-    return robots;
+  const getRobots = useCallback(async (): Promise<RobotStructure[]> => {
+    const { data } = await axios.get(`${apiUrl}robots`);
+    return data.robots;
   }, []);
 
   return {
