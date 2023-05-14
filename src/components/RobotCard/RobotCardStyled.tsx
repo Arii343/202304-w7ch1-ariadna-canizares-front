@@ -38,12 +38,8 @@ const RobotCardStyled = styled.article`
     gap: 10px;
   }
 
-  .robot-card__text {
-    color: rgb(245, 245, 245);
-  }
-
   .robot-card__text--dark {
-    color: rgb(158, 158, 158);
+    color: rgb(208 206 206);
   }
 
   .robot-card__header {

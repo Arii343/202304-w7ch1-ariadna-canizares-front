@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     background-color: rgb(39, 43, 51); 
+    color: rgb(245, 245, 245);
     min-height:100vh;
   }
 
