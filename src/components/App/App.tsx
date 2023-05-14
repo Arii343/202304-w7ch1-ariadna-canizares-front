@@ -1,12 +1,11 @@
-import { Outlet } from "react-router-dom";
-import CenteredContainer from "../CenteredContainer/CenteredContainer";
+import Layout from "../Layout/Layout";
+import AppStyled from "./AppStyled";
 
 const App = (): JSX.Element => {
   return (
-    <CenteredContainer>
-      <p>A cool robots app!</p>
-      <Outlet />
-    </CenteredContainer>
+    <AppStyled>
+      <Layout />
+    </AppStyled>
   );
 };
 
