@@ -19,6 +19,9 @@ const Navbar = (): JSX.Element => {
         <li className="navbar__link">
           <NavLink to="/edit">Edit</NavLink>
         </li>
+        <li className="navbar__link">
+          <NavLink to="/login">Login</NavLink>
+        </li>
       </ul>
     </NavbarStyled>
   );
